@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halter Fine Art</title>
+    <link rel="stylesheet" href="art.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,300;0,400;0,500;0,700;1,200;1,300;1,500;1,600&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Halter Fine Art</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#paint">Paintings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#pc">Policies and Procedures</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+      <section class="Home" id="home">
+        <div class="home-text">
+      <h2>HALTER Fine Arts</h2>
+    <p>Dedication, Determination and following my hearts passion  are<br>
+        my hearts key components that drive my craetive journey.</p>
+        
+       
+        </div>
+      
+      </section>
+
+
+      <section class="Paintings" id="paint">
+             <h1>HALTER <span class="p">Paintings</span> </h1>
+
+       <div class="Paintingscont">
+        <div class="Paintings-content1">
+          <img src="./image/l.jpg" alt="">
+          <h2><b>Local Painted Dragon</b></h2>
+          <p>
+           The beautiful oil painting of a painted dragon is currently available. While exploring around Wompinni Station's dry 
+           landscapes ....
+           <button class="Button" onclick="toggleContent('content1')">more</button>
+           <div id="content1" class="toggle-content">
+            <p> I came across this beautiful little lizard, from this inspiration this visual was
+              then developed in to a painting.
+              <br>
+               <br>
+
+            
+            Size A3
+
+            <br>
+            $230
+            
+            </p>
+           </div>
+          </p>
+        </div>
+
+        <div class="Paintings-content1">
+          <img src="./image/w.jpg" alt="">
+          <h2><b>Honey Bee Botanical View</b></h2>
+          <p>
+          This beautiful Water colour painting is inspired of the surrounding native insect
+          life and the scientific view Australian plants....
+          <button class="Button" onclick="toggleContent('content2')">more</button>
+          <div id="content2" class="toggle-content">
+           <p> This artwork has been professionally framed.
+             <br>
+              <br>
+
+           
+           Size 44cm x 35cm
+
+           <br>
+           $300
+           </p>
+          </div>
+          
+          </p>
+        </div>
+        
+       
+      </div>
+      <div class="Paintingscont2">
+      <div class="Paintings-content2">
+        <img src="./image/p.jpg" alt="">
+        <h2><b>Personalized Oil Paintings</b></h2>
+        <p>
+          Personalize your own image into a one off oil painting, this could include portraiture,
+          capturing any form of moment or luxury items...
+          <button class="Button" onclick="toggleContent('content3')">more</button>
+          <div id="content3" class="toggle-content">
+            <p>Please see further examples of possibilites below.
+              <br>
+              <br>
+              Unframed sizes- 
+              <br>
+              <br>
+              A4- $150
+              <br>
+              <br>
+              A3- $320
+
+              <br>
+              <br>
+              Your Personalized painting may be completed on a risen canvas or on oil painting
+              paper where it may be framed.
+              <br>
+              <br>
+              For framed prices please contact artist.
+            </p>
+          </div>
+        </p>
+      </div>
+
+      <div class="Paintings-content2">
+        <img src="./image/k.jpg" alt="">
+        <h2><b>A Snow Leopard</b></h2>
+        <p>
+        This painting not only showcase technical proficiency but also evokes a strong emotional
+        response, making it a powerful piece of art...
+        <button class="Button" onclick="toggleContent('content4')">more</button>
+        <div id="content4" class="toggle-content">
+          <p> Size A4
+
+            <br>
+            <br>
+            $300  
+          </p>
+        </div>
+        </p>
+      </div>
+    </div>
+      </section>`
+
+
+      <section class="Gallery" id="gallery">
+        <h1>Graphite Charcoal Drawings</h1>
+
+  <div class="gallerycont">
+   <div class="gallery-content3">
+     <img src="./image/j.jpg" alt="">
+     <h2><b>Human Portraiture</b></h2>
+     <p>
+      Created using graphite pencils, capturing expression, emotion and memories of family members or friends....
+      <button class="Button" onclick="toggleContent('content5')">more</button>
+      <div id="content5" class="toggle-content">
+       <p> 
+        black and white only
+         <br>
+        <br>
+         Unframed prices-
+      
+          <br>  
+
+       
+       Size A4- $150
+       <br>
+       Size A3- $250 
+       <br>
+       Size A2- $300
+       <br>
+       For framed prices please speak to artist
+       </p>
+      </div>
+     </p>
+   </div>
+
+   <div class="gallery-content3">
+     <img src="./image/m.jpg" alt="">
+     <h2><b>Pet Portraiture</b></h2>
+     <p>
+    Created using quality graphite pencils capturing your beloved pets expressions, liveliness and emotions.
+    This pet may be the heart....
+     <button class="Button" onclick="toggleContent('content6')">more</button>
+     <div id="content6" class="toggle-content">
+      <p> and soul within the family or you may want to capture a memory of a pet that has passed away.
+        <br>
+          Black and white only
+         <br>
+         <br>
+         Unframed prices-
+<br>
+      
+      Size A4- $115
+      <br>
+      Size A3- $180
+      <br>
+      Size A2- $250
+      <br>
+      
+      Larger sizes can br through arrangement. Same goes for all Pet Portraiture
+      </p>
+     </div>
+     
+     </p>
+   </div>
+   
+  
+ </div>
+ <div class="Gallerycont2">
+ <div class="Gallery-content2">
+   <img src="./image/d.jpg" alt="">
+   <h2><b></b></h2>
+   <!-- <p>
+     Personalize your own image into a one off oil painting, this could include portraiture,
+     capturing any form of moment or luxury items.
+       </p> -->
+     </div>
+   </p>
+ 
+
+ <div class="Gallery-content2">
+   <img src="./image/f.jpg" alt="">
+   <h2><b></b></h2>
+   <!-- <p>
+   This painting not only showcase technical proficiency but also evokes a strong emotional
+   response, making it a powerful piece of art.
+     </p> -->
+   </div>
+   </p>
+ </div>
+</div>
+ </section>`
+
+      <section class="client-reviews" id="about">
+  <div class="reviews">
+      <h3>About Artist</h3>
+      <img src="./image/artist.jpg" alt="">
+      <p>Trisha Halter hails from the foothills of the Macedon Rangers. With oustanding  achievements. 
+        This allowed her to explore diverse opportunities to develop her natural talents, while refining her skills and appreciate 
+        a deeper understanding of process and the use of mediums to achieve desired outcome. Her distinctive passion for many  artistic approaches
+        has wideneed her perspectives and has been highly recognized. This emphasis on aesthetics and her enthusisam involved in creating 
+        her artworks means they become individually characterized with their own dynamics, which produces 
+        unique and sort after one-off piece of art.
+      </p>
+
+           <h2>Trisha Halter</h2>
+           <P>CEO of Halter Fine Arts</P>
+  </div>
+</section>
+
+<section class="Policies" id="pc">
+  <h2>Policies and Procedures</h2>
+    <div class="po-cont">
+      <h3>Return Policies</h3>
+      <p>
+         Customers unhappy with their art products within 15 days of purchasing can
+        receive a full refund as long as the product is not damaged, postage at buyer's expense.
+      </p>
+      <p> If the product arrives damagedafter order online, the customer must meet all 
+      return requirements such as proof of purchase, the artwork will need to be inspected with photo evidence to 
+      proceed the exchange for a new artwork or gallery credit.
+      </p>
+
+      <h3>Procedures</h3>
+      <p>
+        When an artwork is purchased with specific requirements, it will come with additional notes to maintain
+        artworks quailty and health. If the customer does not follow these requirements or maintain artwork.
+        The artwork will not be refunded.
+      </p>
+    </div>
+
+<div class="Contact" id="contact">
+  <h2>Contact</h2>
+  <div class="contact-cont">
+    <p>Don't hesitate to reach out with the contact information below,</p>
+    <br>
+    <br>
+    <div class="insta-link">
+    <a href="http://www.instagram.com/halter_fine_art" target="_blank">
+      <img src="./image/instagram-icon.jpg" alt="Instagram" class="instagram-icon">
+      
+    </a>
+  </div>
+  </div>
+</section>
+
+      <script src="art.js"></script>
+</body>
+</html>
